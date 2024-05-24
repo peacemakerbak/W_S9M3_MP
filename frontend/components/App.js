@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import data from '../data/data.json'
 import axios from "axios"
-
+import { useDarkMode } from "../hooks/useDarkMode"  
 import Charts from "./Charts"
 import Navbar from "./Navbar"
 
